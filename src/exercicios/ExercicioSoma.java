@@ -24,7 +24,6 @@ public class ExercicioSoma {
 
         //4. Recebe quarto número inteiro
         int num04 = 0;
-        num04 = 0;
         System.out.println("Digite o quarto e último número para a soma");
         num04 = scanner.nextInt();
 
