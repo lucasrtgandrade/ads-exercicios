@@ -23,15 +23,29 @@ public class ex04_calculadoraEnergia {
         //2. Cálcuo do valor de acordo com o gasto
         double total;
         double minimo = 11.90;
-        double valor;
 
         double k1 = 0.20;
         double k2 = 0.25;
         double k3 = 0.30;
 
 
-        if ( consumo < 150) {
-            System.out.println("Sua conta total é: ");
+        if (consumo < 150) {
+            total = consumo*k1;
+        } 
+        else if ((consumo >= 150) && (consumo <500)) {
+            total = consumo*k2;
+        }
+        else {
+            total = consumo*k3;
+        }
+
+        //3. Verifica se a conta teve um valor menor que R$ 11.90
+
+        if (total < 11.90) {
+            System.out.println("Você teve consumo mínimo sua conta é: R$" +minimo);
+        }
+        else {
+            System.out.println("Sua conta total é: R$" +total);
         }
     }
 }
