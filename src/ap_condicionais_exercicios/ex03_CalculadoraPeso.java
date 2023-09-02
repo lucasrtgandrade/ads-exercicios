@@ -29,7 +29,7 @@ public class ex03_CalculadoraPeso {
         if (massa < 26) {
             System.out.println("Peso normal " + massa);
         }
-        else if ((massa >= 26) || (massa > 30)) {
+        else if ((massa >= 26) && (massa < 30)) {
             System.out.println("Obeso " + massa);
         }
         else {
