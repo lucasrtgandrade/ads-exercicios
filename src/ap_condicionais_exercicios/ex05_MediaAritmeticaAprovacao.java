@@ -12,7 +12,7 @@ package ap_condicionais_exercicios;
 
 import java.util.Scanner;
 
-public class ex_05_MediaAritmeticaAprovacao {
+public class ex05_MediaAritmeticaAprovacao {
     public static void main(String[] args) {
         //1. Receber as três notas do aluno
         Scanner input = new Scanner(System.in);
