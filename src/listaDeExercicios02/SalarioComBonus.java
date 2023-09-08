@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class SalarioComBonus {
     public static void main(String[] args) {
-
         // Receber salario
         Scanner input = new Scanner(System.in);
         System.out.println("Qual é o seu salário");
