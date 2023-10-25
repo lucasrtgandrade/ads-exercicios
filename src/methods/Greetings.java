@@ -8,7 +8,7 @@ public class Greetings {
     }
 
     public static void greetUser() {
-        System.out.println("Enter your name: ");
+        System.out.println("Enter your name:");
         Scanner input = new Scanner(System.in);
         String name = input.next();
         System.out.println("Hi there, " + name);

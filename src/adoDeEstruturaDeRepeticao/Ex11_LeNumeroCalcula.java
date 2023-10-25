@@ -6,12 +6,12 @@ public class Ex11_LeNumeroCalcula {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Digite um número");
-        float n = input.nextFloat();
+        float numero = input.nextFloat();
 
         float divisor = 1;
         float soma = 1;
 
-        while(divisor <= n) {
+        while(divisor <= numero) {
             if(divisor % 2 == 0) {
                 soma = soma + (1/divisor);
                 divisor++;
