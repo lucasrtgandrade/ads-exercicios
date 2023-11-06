@@ -1,0 +1,23 @@
+package MethodsExercises;
+
+import java.util.Random;
+
+public class Ex02_CheckEvenNumber {
+    private static int generateNumbers() {
+        Random rdn = new Random();
+        int number = rdn.nextInt(99);
+        return number;
+    }
+
+    private static void isEven(int number) {
+        if (number %2 == 0) {
+            System.out.printf("%d é par", number);
+        } else {
+            System.out.printf("%d é impar", number);
+        }
+    }
+
+    public static void main(String[] args) {
+        isEven(generateNumbers());
+    }
+}
